@@ -37,7 +37,7 @@ paths:
                   $ref: '#/components/schemas/Student'
         400:
           description: Bad request
-          
+      
     post:
       tags:
       - Students
@@ -64,6 +64,8 @@ paths:
         400:
           description: Bad request
       
+
+
 components:
   schemas:
     Student:
@@ -75,6 +77,7 @@ components:
         name:
           type: string
       
+      
     CreateStudent:
       required:
       - name
@@ -84,5 +87,3 @@ components:
         
         name:
           type: string
-      
-  
